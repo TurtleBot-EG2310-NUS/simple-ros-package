@@ -26,6 +26,7 @@ front_ros = 0
 
 buffer = 0.1 # 0.1 meter
 distance = 1.0
+run_flag = True
 
 a = distance - buffer
 b = distance + buffer
@@ -60,18 +61,24 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
         dist_head = msg.ranges[front_ros]
-        self.get_logger().info('Front Distant: %.2f m' % dist_head)
+        self.get_logger().info('front Distant: %.2f m' % dist_head)
         
-        if dist_head >= a and dist_head <= b:
+        if dist_head >= a and dist_head <= b and run_flag == True:
             servo_sweep(float(dist_head))
             self.get_logger().info('Trigger')
+            self.get_logger().info(f'{run_flag}')
 
 def servo_sweep(_dis):
+
    GPIO.output(solenoid_pin, GPIO.HIGH)
    p.ChangeDutyCycle(deg_to_dutycycle(0))
    time.sleep(1)
    GPIO.output(solenoid_pin, GPIO.LOW)
    p.ChangeDutyCycle(deg_to_dutycycle(45))
+   global run_flag 
+   run_flag = False
+
+
 
 
 def main(args=None):
