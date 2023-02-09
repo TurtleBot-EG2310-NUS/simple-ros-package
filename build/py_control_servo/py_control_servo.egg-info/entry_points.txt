@@ -1,0 +1,3 @@
+[console_scripts]
+listener = py_control_servo.subscriber_member_function:main
+

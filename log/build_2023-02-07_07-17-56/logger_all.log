@@ -1,0 +1,88 @@
+[2.404s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'py_control_servo']
+[2.405s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa45a79d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['py_control_servo'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa45a79d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa45a7f40>)
+[2.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.451s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/turtlebot3_ws/src/py_control_servo'
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.556s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'py_control_servo'
+[2.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.717s] Level 5:colcon.colcon_core.verb:set package 'py_control_servo' build argument 'cmake_args' from command line to 'None'
+[2.717s] Level 5:colcon.colcon_core.verb:set package 'py_control_servo' build argument 'cmake_target' from command line to 'None'
+[2.717s] Level 5:colcon.colcon_core.verb:set package 'py_control_servo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.718s] Level 5:colcon.colcon_core.verb:set package 'py_control_servo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.718s] Level 5:colcon.colcon_core.verb:set package 'py_control_servo' build argument 'cmake_clean_first' from command line to 'False'
+[2.718s] Level 5:colcon.colcon_core.verb:set package 'py_control_servo' build argument 'cmake_force_configure' from command line to 'False'
+[2.718s] Level 5:colcon.colcon_core.verb:set package 'py_control_servo' build argument 'ament_cmake_args' from command line to 'None'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'py_control_servo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'py_control_servo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.719s] DEBUG:colcon.colcon_core.verb:Building package 'py_control_servo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo', 'merge_install': False, 'path': '/home/ubuntu/turtlebot3_ws/src/py_control_servo', 'symlink_install': False, 'test_result_base': None}
+[2.722s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.737s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/turtlebot3_ws/src/py_control_servo' with build type 'ament_python'
+[2.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_control_servo', 'ament_prefix_path')
+[2.768s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/hook/ament_prefix_path.ps1'
+[2.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/hook/ament_prefix_path.dsv'
+[2.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/hook/ament_prefix_path.sh'
+[2.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.815s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.587s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/turtlebot3_ws/src/py_control_servo'
+[4.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.611s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/turtlebot3_ws/src/py_control_servo': PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/py_control_servo build --build-base /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build install --prefix /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo --record /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/install.log --single-version-externally-managed
+[6.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/turtlebot3_ws/src/py_control_servo' returned '0': PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/py_control_servo build --build-base /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build install --prefix /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo --record /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/install.log --single-version-externally-managed
+[7.025s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo' for CMake module files
+[7.029s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo' for CMake config files
+[7.036s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib'
+[7.037s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/bin'
+[7.038s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/pkgconfig/py_control_servo.pc'
+[7.038s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages'
+[7.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_control_servo', 'pythonpath')
+[7.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/hook/pythonpath.ps1'
+[7.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/hook/pythonpath.dsv'
+[7.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/hook/pythonpath.sh'
+[7.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_control_servo)
+[7.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/package.ps1'
+[7.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/package.dsv'
+[7.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/package.sh'
+[7.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/package.bash'
+[7.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo/package.zsh'
+[7.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/colcon-core/packages/py_control_servo)
+[7.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.093s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.094s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.094s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.139s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.140s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.140s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.145s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[7.145s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/local_setup.ps1'
+[7.160s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/_local_setup_util_ps1.py'
+[7.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/setup.ps1'
+[7.189s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/local_setup.sh'
+[7.194s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/_local_setup_util_sh.py'
+[7.199s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/setup.sh'
+[7.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/local_setup.bash'
+[7.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/setup.bash'
+[7.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/local_setup.zsh'
+[7.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/setup.zsh'

@@ -1,0 +1,35 @@
+running egg_info
+creating build/py_control_servo/py_control_servo.egg-info
+writing build/py_control_servo/py_control_servo.egg-info/PKG-INFO
+writing dependency_links to build/py_control_servo/py_control_servo.egg-info/dependency_links.txt
+writing entry points to build/py_control_servo/py_control_servo.egg-info/entry_points.txt
+writing requirements to build/py_control_servo/py_control_servo.egg-info/requires.txt
+writing top-level names to build/py_control_servo/py_control_servo.egg-info/top_level.txt
+writing manifest file 'build/py_control_servo/py_control_servo.egg-info/SOURCES.txt'
+reading manifest file 'build/py_control_servo/py_control_servo.egg-info/SOURCES.txt'
+writing manifest file 'build/py_control_servo/py_control_servo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build
+creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib
+creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib/py_control_servo
+copying py_control_servo/__init__.py -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib/py_control_servo
+copying py_control_servo/subscriber_member_function.py -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib/py_control_servo
+running install
+running install_lib
+creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo
+copying /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib/py_control_servo/__init__.py -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo
+copying /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib/py_control_servo/subscriber_member_function.py -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo
+byte-compiling /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+running install_data
+creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/ament_index
+creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/ament_index/resource_index
+creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/ament_index/resource_index/packages
+copying resource/py_control_servo -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo
+running install_egg_info
+Copying build/py_control_servo/py_control_servo.egg-info to /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/py_control_servo
+writing list of installed files to '/home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/install.log'

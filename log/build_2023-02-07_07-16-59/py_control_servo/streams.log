@@ -1,0 +1,37 @@
+[1.920s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/py_control_servo': PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/py_control_servo build --build-base /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build install --prefix /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo --record /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/install.log --single-version-externally-managed
+[3.615s] running egg_info
+[3.619s] creating build/py_control_servo/py_control_servo.egg-info
+[3.620s] writing build/py_control_servo/py_control_servo.egg-info/PKG-INFO
+[3.622s] writing dependency_links to build/py_control_servo/py_control_servo.egg-info/dependency_links.txt
+[3.623s] writing entry points to build/py_control_servo/py_control_servo.egg-info/entry_points.txt
+[3.625s] writing requirements to build/py_control_servo/py_control_servo.egg-info/requires.txt
+[3.626s] writing top-level names to build/py_control_servo/py_control_servo.egg-info/top_level.txt
+[3.636s] writing manifest file 'build/py_control_servo/py_control_servo.egg-info/SOURCES.txt'
+[3.892s] reading manifest file 'build/py_control_servo/py_control_servo.egg-info/SOURCES.txt'
+[3.899s] writing manifest file 'build/py_control_servo/py_control_servo.egg-info/SOURCES.txt'
+[3.900s] running build
+[3.902s] running build_py
+[3.903s] creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build
+[3.904s] creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib
+[3.905s] creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib/py_control_servo
+[3.906s] copying py_control_servo/__init__.py -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib/py_control_servo
+[3.907s] copying py_control_servo/subscriber_member_function.py -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib/py_control_servo
+[3.908s] running install
+[3.913s] running install_lib
+[3.920s] creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo
+[3.921s] copying /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib/py_control_servo/__init__.py -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo
+[3.922s] copying /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build/lib/py_control_servo/subscriber_member_function.py -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo
+[3.927s] byte-compiling /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo/__init__.py to __init__.cpython-38.pyc
+[3.937s] byte-compiling /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[3.940s] running install_data
+[3.944s] creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/ament_index
+[3.947s] creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/ament_index/resource_index
+[3.948s] creating /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/ament_index/resource_index/packages
+[3.949s] copying resource/py_control_servo -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/ament_index/resource_index/packages
+[3.950s] copying package.xml -> /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/share/py_control_servo
+[3.951s] running install_egg_info
+[3.961s] Copying build/py_control_servo/py_control_servo.egg-info to /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages/py_control_servo-0.0.0-py3.8.egg-info
+[3.970s] running install_scripts
+[4.100s] Installing listener script to /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/py_control_servo
+[4.103s] writing list of installed files to '/home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/install.log'
+[4.290s] Invoked command in '/home/ubuntu/turtlebot3_ws/src/py_control_servo' returned '0': PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/py_control_servo build --build-base /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/build install --prefix /home/ubuntu/turtlebot3_ws/src/py_control_servo/install/py_control_servo --record /home/ubuntu/turtlebot3_ws/src/py_control_servo/build/py_control_servo/install.log --single-version-externally-managed
